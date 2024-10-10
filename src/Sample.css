@@ -1,0 +1,56 @@
+/* Make the component fill the entire screen */
+html, body {
+    height: 100%;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
+  .cat1 {
+    display: outside;
+    justify-content: center;
+    align-items: center;
+    height: 100;
+    background-color: #f0f0f0; /* Background color of the page */
+  }
+  
+  .MuiCard-root {
+    max-width: 50vw; /* Set card width relative to the viewport */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add some shadow for depth */
+    border-radius: 12px; /* Rounded corners */
+  }
+  
+  .MuiCardHeader-root {
+    background-color: #ffffff; /* Background of the card header */
+    border-bottom: 1px solid #ddd; /* Thin border at the bottom of header */
+  }
+  
+  .MuiCardMedia-root {
+    border-bottom: 1px solid #ddd; /* Thin border between image and content */
+  }
+  
+  .MuiCardContent-root {
+    padding: 16px;
+    background-color: #fafafa; /* Lighter background for content */
+  }
+  
+  .MuiTypography-body2 {
+    color: #333; /* Dark text color */
+  }
+  
+  .MuiCardActions-root {
+    padding: 0 16px 16px;
+    background-color: #ffffff;
+  }
+  
+  .MuiCollapse-wrapperInner {
+    padding: 16px;
+    background-color: #fafafa;
+  }
+  
+  .MuiIconButton-root {
+    color: #555; /* Icon button color */
+  }
+  
+  .MuiAvatar-root {
+    background-color: #ff5252; /* Red avatar background */
+  }
+  

@@ -1,0 +1,25 @@
+.r1 {
+    position:relative;  /* Absolute position inside the container */
+    top: 10px;           /* Adjust top margin to move it to the top */
+    left: 50%;           /* Center horizontally */
+    transform: translateX(-50%);  /* Center horizontally */
+    font-size: 36px;     /* Adjust font size if needed */
+    font-weight: bold;   /* Make the text bold */
+    color:blanchedalmond;        /* Ensure text is readable */
+  }
+  .r2{
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    text-align: right;
+    color: antiquewhite;
+  }
+  .r3{
+  
+    position:static;
+    bottom: 20px;
+    right: 20px;
+    text-align:center;
+    color: antiquewhite;
+  }
+  

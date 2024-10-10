@@ -1,0 +1,21 @@
+nav{
+    background-color:darkcyan;
+    color: antiquewhite;
+}
+li{
+    list-style: none;
+    color: antiquewhite;
+}
+nav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+
+}
+ul{
+    display: flex;
+    gap:25px;
+    justify-content:right;
+    padding-right: 20px;
+    
+}
